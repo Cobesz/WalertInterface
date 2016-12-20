@@ -1,3 +1,8 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
 nav {
     border: 1px solid black;
     height:50px;
@@ -14,7 +19,30 @@ nav {
     margin: 25px 10px;
 }
 
+.chart-left {
+    background-image: url("../images/grafiek1.png");
+}
+
 .chart-right {
     float: right;
 }
+
+.chart-right .innerbox {
+    margin: 20px;
+    border: 1px solid black;
+}
+
+.chart-right .innerbox h2 {
+    margin: 5px;
+}
+
+.chart-right .innerbox ul {
+    padding: 5px;
+}
+
+.chart-right .innerbox ul li {
+    list-style: none;
+}
+
+
 
