@@ -7,7 +7,7 @@
         <div class="col-md-12">
 
             <div class="chart chart-left col-md-4">
-                <!--                Grafiekje in css-->
+                <img src="assets/images/grafiek1.png">
             </div>
             <div class="chart chart-right col-md-4">
                 <div class="innerbox">
@@ -27,19 +27,43 @@
                 <div class="dropdown">
                     <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1"
                             data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
-                        Dropdown
+                        Kies een maand
                         <span class="caret"></span>
                     </button>
                     <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
-                        <li><a href="#">Action</a></li>
-                        <li><a href="#">Another action</a></li>
-                        <li><a href="#">Something else here</a></li>
+                        <li><a href="#">2016</a></li>
                         <li role="separator" class="divider"></li>
-                        <li><a href="#">Separated link</a></li>
+                        <li><a href="#">Januari</a></li>
+                        <li><a href="#">Februari</a></li>
+                        <li><a href="#">Maart</a></li>
+                        <li><a href="#">April</a></li>
+                        <li><a href="#">Mei</a></li>
+                        <li><a href="#">Juni</a></li>
+                        <li><a href="#">Juli</a></li>
+                        <li><a href="#">Augustus</a></li>
+                        <li><a href="#">September</a></li>
+                        <li><a href="#">Oktober</a></li>
+                        <li><a href="#">November</a></li>
+                        <li><a href="#">December</a></li>
+                        <li role="separator" class="divider"></li>
+                        <li><a href="#">2017</a></li>
+                        <li role="separator" class="divider"></li>
+                        <li><a href="#">Januari</a></li>
+                        <li><a href="#">Februari</a></li>
+                        <li><a href="#">Maart</a></li>
+                        <li><a href="#">April</a></li>
+                        <li><a href="#">Mei</a></li>
+                        <li><a href="#">Juni</a></li>
+                        <li><a href="#">Juli</a></li>
+                        <li><a href="#">Augustus</a></li>
+                        <li><a href="#">September</a></li>
+                        <li><a href="#">Oktober</a></li>
+                        <li><a href="#">November</a></li>
+                        <li><a href="#">December</a></li>
                     </ul>
                 </div>
-
             </div>
+
         </div>
     </div>
 </div>

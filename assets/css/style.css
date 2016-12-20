@@ -15,16 +15,12 @@ nav {
 
 .chart {
     border: 1px solid black;
-    height: 300px;
+    /*height: 300px;*/
     margin: 25px 10px;
 }
 
-.chart-left {
-    background-image: url("../images/grafiek1.png");
-}
-
-.chart-right {
-    float: right;
+.chart-left img{
+    width: 100%;
 }
 
 .chart-right .innerbox {
@@ -44,5 +40,35 @@ nav {
     list-style: none;
 }
 
+.chart-right .dropdown {
+    margin: 0 20px 5px ;
+    /*bottom: -60px;*/
+}
+
+/*MediaQueries*/
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
 
 
+
+    .chart-left {
+        float: left;
+    }
+
+
+
+
+    .chart-right {
+        float: right;
+    }
+
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+    /*.chart-left, .chart-right {*/
+        /*float: none;*/
+    /*}*/
+}
